@@ -606,7 +606,6 @@ def process_parsed_graph(g, custom_op_handlers, inputs_as_nchw, outputs_as_nchw,
         rewrite_generic_loop, rewrite_cond,
         rewrite_biasadd_with_conv2d,
         rewrite_layer_normalization,
-        rewrite_gemm,
         rewrite_ragged_variant_shape,
     ]
 
